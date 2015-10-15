@@ -216,7 +216,7 @@
         </ifl:property>
         <ifl:property>
           <key>proxyType</key>
-          <value>default</value>
+          <value>sapcc</value>
         </ifl:property>
         <ifl:property>
           <key>soapWsdlURL</key>
@@ -450,50 +450,50 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_StartEvent_1" bpmnElement="StartEvent_1">
         <dc:Bounds height="36.0" width="36.0" x="234.0" y="169.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_4">
+        <bpmndi:BPMNLabel id="BPMNLabel_4" labelStyle="BPMNLabelStyle_1">
           <dc:Bounds height="15.0" width="25.0" x="239.0" y="205.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_CallActivity_1" bpmnElement="_CallActivity_2" isExpanded="true">
         <dc:Bounds height="60.0" width="100.0" x="304.0" y="98.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_9">
+        <bpmndi:BPMNLabel id="BPMNLabel_9" labelStyle="BPMNLabelStyle_1">
           <dc:Bounds height="15.0" width="46.0" x="331.0" y="120.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_CallActivity_2" bpmnElement="_CallActivity_3" isExpanded="true">
         <dc:Bounds height="60.0" width="100.0" x="234.0" y="219.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_10">
+        <bpmndi:BPMNLabel id="BPMNLabel_10" labelStyle="BPMNLabelStyle_1">
           <dc:Bounds height="15.0" width="76.0" x="246.0" y="241.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_CallActivity_3" bpmnElement="_CallActivity_4" isExpanded="true">
         <dc:Bounds height="60.0" width="100.0" x="411.0" y="219.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_11">
+        <bpmndi:BPMNLabel id="BPMNLabel_11" labelStyle="BPMNLabelStyle_1">
           <dc:Bounds height="30.0" width="99.0" x="411.0" y="234.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_CallActivity_4" bpmnElement="_CallActivity_5" isExpanded="true">
         <dc:Bounds height="60.0" width="100.0" x="564.0" y="219.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_12">
+        <bpmndi:BPMNLabel id="BPMNLabel_12" labelStyle="BPMNLabelStyle_1">
           <dc:Bounds height="15.0" width="47.0" x="590.0" y="241.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_ServiceTask_1" bpmnElement="ServiceTask_1">
         <dc:Bounds height="50.0" width="110.0" x="644.0" y="157.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_13">
+        <bpmndi:BPMNLabel id="BPMNLabel_13" labelStyle="BPMNLabelStyle_1">
           <dc:Bounds height="15.0" width="82.0" x="658.0" y="174.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_EndEvent_2" bpmnElement="EndEvent_2">
         <dc:Bounds height="36.0" width="36.0" x="524.0" y="110.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_14">
+        <bpmndi:BPMNLabel id="BPMNLabel_14" labelStyle="BPMNLabelStyle_1">
           <dc:Bounds height="15.0" width="65.0" x="510.0" y="146.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="BPMNEdge_MessageFlow_1" bpmnElement="MessageFlow_1" sourceElement="BPMNShape_Participant_1" targetElement="BPMNShape_StartEvent_1">
         <di:waypoint xsi:type="dc:Point" x="140.0" y="187.0"/>
         <di:waypoint xsi:type="dc:Point" x="234.0" y="187.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_7">
+        <bpmndi:BPMNLabel id="BPMNLabel_7" labelStyle="BPMNLabelStyle_1">
           <dc:Bounds height="15.0" width="32.0" x="172.0" y="188.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
@@ -501,45 +501,48 @@
         <di:waypoint xsi:type="dc:Point" x="252.0" y="169.0"/>
         <di:waypoint xsi:type="dc:Point" x="252.0" y="118.0"/>
         <di:waypoint xsi:type="dc:Point" x="304.0" y="118.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_15"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_15" labelStyle="BPMNLabelStyle_1"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_3" bpmnElement="SequenceFlow_3" sourceElement="BPMNShape_CallActivity_1" targetElement="BPMNShape_CallActivity_2">
         <di:waypoint xsi:type="dc:Point" x="304.0" y="138.0"/>
         <di:waypoint xsi:type="dc:Point" x="284.0" y="138.0"/>
         <di:waypoint xsi:type="dc:Point" x="284.0" y="219.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_16"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_16" labelStyle="BPMNLabelStyle_1"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_5" bpmnElement="SequenceFlow_5" sourceElement="BPMNShape_CallActivity_2" targetElement="BPMNShape_CallActivity_3">
         <di:waypoint xsi:type="dc:Point" x="334.0" y="249.0"/>
         <di:waypoint xsi:type="dc:Point" x="411.0" y="249.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_17"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_17" labelStyle="BPMNLabelStyle_1"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_6" bpmnElement="SequenceFlow_6" sourceElement="BPMNShape_CallActivity_4" targetElement="BPMNShape_ServiceTask_1">
         <di:waypoint xsi:type="dc:Point" x="614.0" y="219.0"/>
         <di:waypoint xsi:type="dc:Point" x="614.0" y="182.0"/>
         <di:waypoint xsi:type="dc:Point" x="644.0" y="182.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_18"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_18" labelStyle="BPMNLabelStyle_1"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_7" bpmnElement="SequenceFlow_7" sourceElement="BPMNShape_ServiceTask_1" targetElement="BPMNShape_EndEvent_2">
         <di:waypoint xsi:type="dc:Point" x="699.0" y="157.0"/>
         <di:waypoint xsi:type="dc:Point" x="699.0" y="128.0"/>
         <di:waypoint xsi:type="dc:Point" x="560.0" y="128.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_19"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_19" labelStyle="BPMNLabelStyle_1"/>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="BPMNEdge_MessageFlow_3" bpmnElement="MessageFlow_3" sourceElement="BPMNShape_ServiceTask_1" targetElement="BPMNShape_Participant_2">
         <di:waypoint xsi:type="dc:Point" x="754.0" y="182.0"/>
         <di:waypoint xsi:type="dc:Point" x="819.0" y="182.0"/>
         <di:waypoint xsi:type="dc:Point" x="819.0" y="180.0"/>
         <di:waypoint xsi:type="dc:Point" x="900.0" y="180.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_20">
+        <bpmndi:BPMNLabel id="BPMNLabel_20" labelStyle="BPMNLabelStyle_1">
           <dc:Bounds height="15.0" width="32.0" x="811.0" y="181.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_8" bpmnElement="SequenceFlow_8" sourceElement="BPMNShape_CallActivity_3" targetElement="BPMNShape_CallActivity_4">
         <di:waypoint xsi:type="dc:Point" x="511.0" y="249.0"/>
         <di:waypoint xsi:type="dc:Point" x="564.0" y="249.0"/>
-        <bpmndi:BPMNLabel id="BPMNLabel_21"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_21" labelStyle="BPMNLabelStyle_1"/>
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
+    <bpmndi:BPMNLabelStyle id="BPMNLabelStyle_1">
+      <dc:Font name="arial" size="9.0"/>
+    </bpmndi:BPMNLabelStyle>
   </bpmndi:BPMNDiagram>
 </bpmn2:definitions>
