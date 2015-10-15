@@ -232,7 +232,7 @@
         </ifl:property>
         <ifl:property>
           <key>requestTimeout</key>
-          <value>60000</value>
+          <value>6000000</value>
         </ifl:property>
         <ifl:property>
           <key>CompressMessage</key>
